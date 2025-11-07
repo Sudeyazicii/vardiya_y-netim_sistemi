@@ -1,0 +1,54 @@
+{
+  "info": {
+    "_postman_id": "d497de58-1234-4f2e-b21b-55bb12345678",
+    "name": "Vardiya Sistemi API Testleri (Basic)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Tüm Departmanlar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3002/api/v1/departmanlar",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3002",
+          "path": ["api", "v1", "departmanlar"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tüm Çalışanlar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3002/api/v1/calisans",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3002",
+          "path": ["api", "v1", "calisans"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tüm Vardiyalar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3002/api/v1/vardiyalar",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3002",
+          "path": ["api", "v1", "vardiyalar"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
