@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Rails
-gem "rails", "~> 8.0.3"
+gem "rails", "~> 8.1.1"
 
 # Veritabanı
 gem "sqlite3", ">= 2.1"
